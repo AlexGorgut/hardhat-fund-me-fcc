@@ -1,5 +1,7 @@
 const { network } = require("hardhat")
 const { networkConfig, developmentChains } = require("../helper-hardhat-config")
+// thats the same as const helperConfig = require("../helper-hardhat-config")
+// or const networkConfig = helperConfig.networkConfig
 const { verify } = require("../utils/verify")
 require("dotenv").config()
 
